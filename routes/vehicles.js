@@ -21,8 +21,8 @@ router.get('/vehicles', (req, res) => {
 // define the about route
 router.get('/vehicles/:vehicleId', (req, res) => {
   res.json({
-  	make: 'Honda',
-  	model: 'Civic'
+  	make: 'Mazda',
+  	model: 'RX-7'
   });
 })
 
